@@ -25,7 +25,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, onSelectSample }) => {
             {/* Tag badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-800/80 border border-emerald-600/50 text-emerald-300 text-xs sm:text-sm font-semibold backdrop-blur-xs">
               <Sparkles className="w-4 h-4 text-emerald-400" />
-              <span>Google Teachable Machine & AI Agriculture Assistant</span>
+              <span>CropSheild & AI Agriculture Assistant</span>
             </div>
 
             {/* Main Headline */}
@@ -90,7 +90,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, onSelectSample }) => {
                   <span className="text-xs font-bold uppercase tracking-wider text-emerald-300">Live AI Diagnostic Flow</span>
                 </div>
                 <span className="text-[11px] bg-emerald-950 text-emerald-300 px-2 py-0.5 rounded-full border border-emerald-700/60 font-mono">
-                  Teachable Machine v2
+                  CropSheild
                 </span>
               </div>
 
