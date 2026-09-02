@@ -44,17 +44,17 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <div className="w-10 h-10 rounded-xl bg-emerald-600 flex items-center justify-center text-white font-bold">
                 <Sprout className="w-6 h-6" />
               </div>
-              <span className="font-extrabold text-xl text-white tracking-tight">CropShield AI</span>
+              <span className="font-extrabold text-xl text-white tracking-tight">CropShield</span>
             </div>
             
             <p className="text-xs sm:text-sm text-stone-400 leading-relaxed max-w-sm">
-              Empowering farmers with Google Teachable Machine vision intelligence to detect foliar crop diseases, receive reliable treatment guides, and connect directly with local agro suppliers via WhatsApp.
+              Empowering farmers with CropSheild intelligence to detect foliar crop diseases, receive reliable treatment guides, and connect directly with local agro suppliers via WhatsApp.
             </p>
 
             <div className="pt-2 flex items-center gap-3 text-stone-400">
               <span className="text-xs font-semibold">Agronomy Network:</span>
               <span className="text-xs bg-stone-800 text-emerald-400 px-2 py-1 rounded-md border border-stone-700 font-mono">
-                Teachable Machine v2
+               CropSheild
               </span>
             </div>
           </div>
@@ -130,8 +130,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 <span>support@cropshield.agri.org</span>
               </p>
               <p className="flex items-start gap-2">
-                <MapPin className="w-3.5 h-3.5 text-emerald-400 mt-0.5 shrink-0" />
-                <span>Multan Road, Lahore, Pakistan</span>
+                <MapPin className,Sariab Road near the Sariab Police Station, Quetta, Pakistan</span>
               </p>
             </div>
           </div>
@@ -142,14 +141,14 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         <div className="mt-12 pt-6 border-t border-stone-800 text-[11px] text-stone-500 leading-relaxed space-y-2">
           <p className="font-semibold text-stone-400">⚠️ Agricultural Safety & AI Disclaimer:</p>
           <p>
-            CropShield AI predictions and remedies are advisory guidelines based on computational image analysis. AI outputs are not guaranteed diagnostic certificates. Farmers must always consult qualified local agricultural officers or certified agronomists before purchasing or applying pesticides, follow registered product chemical container labels, and adhere strictly to regional environmental and worker safety standards.
+            CropShield AI predictions and remedies are advisory guidelines based on computational image analysis. CropSheild outputs are not guaranteed diagnostic certificates. Farmers must always consult qualified local agricultural officers or certified agronomists before purchasing or applying pesticides, follow registered product chemical container labels, and adhere strictly to regional environmental and worker safety standards.
           </p>
         </div>
 
         {/* Bottom Copyright */}
         <div className="mt-6 pt-4 border-t border-stone-800/60 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 gap-2">
-          <p>© {new Date().getFullYear()} CropShield AI — Empowering Farmers with Accessible AI. All rights reserved.</p>
-          <p className="text-[11px] text-stone-400">Powered by Google Teachable Machine & React</p>
+          <p>© {new Date().getFullYear()} CropShield AI — Empowering Farmers with Accessible CropSheild. All rights reserved.</p>
+          <p className="text-[11px] text-stone-400">Powered by CropSheild</p>
         </div>
 
       </div>
