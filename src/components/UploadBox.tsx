@@ -108,7 +108,7 @@ export const UploadBox: React.FC<UploadBoxProps> = ({
             </span>
           </h2>
           <p className="text-xs sm:text-sm text-stone-500 mt-0.5">
-            Powered by Google Teachable Machine image classification
+            Powered by CropSheild image classification
           </p>
         </div>
 
@@ -133,7 +133,7 @@ export const UploadBox: React.FC<UploadBoxProps> = ({
           <button
             onClick={() => setShowConfigModal(true)}
             className="p-2 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-700 transition cursor-pointer"
-            title="Configure Teachable Machine Model URL"
+            title="Configure Teachable Machine Model URl"
           >
             <Sliders className="w-4 h-4" />
           </button>
@@ -260,7 +260,7 @@ export const UploadBox: React.FC<UploadBoxProps> = ({
             <div className="flex items-center justify-between pb-3 border-b border-stone-200">
               <h3 className="font-bold text-lg text-stone-900 flex items-center gap-2">
                 <Sliders className="w-5 h-5 text-emerald-600" />
-                Teachable Machine Model Settings
+                CropSheild Settings
               </h3>
               <button
                 onClick={() => setShowConfigModal(false)}
@@ -273,7 +273,7 @@ export const UploadBox: React.FC<UploadBoxProps> = ({
             <div className="space-y-4 text-sm text-stone-700">
               <div>
                 <label className="block font-semibold mb-1 text-xs text-stone-800">
-                  Google Teachable Machine Model URL:
+                 CropSheild URL:
                 </label>
                 <input
                   type="url"
@@ -283,7 +283,7 @@ export const UploadBox: React.FC<UploadBoxProps> = ({
                   className="w-full p-2.5 bg-stone-50 border border-stone-300 rounded-xl text-xs font-mono focus:ring-2 focus:ring-emerald-500 outline-hidden"
                 />
                 <p className="text-[11px] text-stone-500 mt-1">
-                  You can deploy any Google Teachable Machine Image Model URL (containing model.json & metadata.json).
+                  You can deploy any CropSheild Image Model URL (containing model.json & metadata.json).
                 </p>
               </div>
 
