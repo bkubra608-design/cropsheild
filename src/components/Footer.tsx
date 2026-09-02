@@ -130,7 +130,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 <span>support@cropshield.agri.org</span>
               </p>
               <p className="flex items-start gap-2">
-                <MapPin className,Sariab Road near the Sariab Police Station, Quetta, Pakistan</span>
+                 <Map className="w-3.5 h-3.5 text-emerald-400" />
+                <span> Sariab Road near the Sariab Police Station, Quetta, Pakistan</span>
               </p>
             </div>
           </div>
