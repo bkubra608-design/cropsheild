@@ -19,7 +19,7 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({ onNavigate }) => {
       step: '2',
       icon: <Cpu className="w-6 h-6 text-emerald-600" />,
       title: 'AI Detects Disease',
-      description: 'Google Teachable Machine scans leaf spots, pustules, and chlorosis patterns to identify the disease with a confidence score.',
+      description: 'CropSheild scans leaf spots, pustules, and chlorosis patterns to identify the disease with a confidence score.',
       badge: 'Step 2'
     },
     {
@@ -48,7 +48,7 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({ onNavigate }) => {
             Simple 4-Step Process
           </span>
           <h2 className="text-2xl sm:text-4xl font-extrabold text-stone-900 mt-3 font-serif">
-            How CropShield AI Works for Farmers
+            How CropShield Works for Farmers
           </h2>
           <p className="text-stone-600 text-sm sm:text-base mt-3 leading-relaxed">
             Designed specifically for farmers and agriculturalists with an ultra-simple interface. No complicated technical jargon — just fast, reliable answers.
