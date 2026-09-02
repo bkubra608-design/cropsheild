@@ -77,7 +77,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <div>
               <div className="flex items-center gap-1.5">
                 <span className="font-extrabold text-xl sm:text-2xl text-stone-900 tracking-tight">CropShield</span>
-                <span className="bg-emerald-100 text-emerald-800 text-[10px] font-black uppercase px-1.5 py-0.5 rounded-md tracking-wider">AI</span>
+                <span className="bg-emerald-100 text-emerald-800 text-[10px] font-black uppercase px-1.5 py-0.5 rounded-md tracking-wider"></span>
               </div>
               <p className="text-[11px] text-stone-500 font-medium hidden sm:block">Crop Disease Detection & Suppliers</p>
             </div>
